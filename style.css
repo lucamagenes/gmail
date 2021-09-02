@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg");
+    margin: auto;
+    width: 60%;
+}
+
+#site_header {
+    border-bottom: 2px solid white;
+    padding-top: 10px;
+    height: 100px;
+}
+
+#site_header h1 {
+    display: inline-block;
+    color: white;
+}
+
+.logo {
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.search {
+    padding-top: 10px;
+}
+
+input[type="button"] {
+    padding: 2px 7px;
+}
+
+input[type="text"] {
+    height: 25px;
+}
+
+.special>span {
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.special {
+    margin-top: 1rem;
+    color: white;
+    font-size: large;
+    border-bottom: 2px solid white;
+    height: 40px;
+}
